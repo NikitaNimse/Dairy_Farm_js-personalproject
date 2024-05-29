@@ -1,0 +1,65 @@
+.product-card{
+    background-color: #ffff;
+    width:320px;
+    height:510px;
+    border-radius: 20px;
+    
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display:inline-block;
+    margin:40px auto;
+    padding:3px;
+  }
+  .img{
+  width:180px;
+  display:block;
+  margin:10px auto;
+  padding:10px 20px;
+ /* background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);*/
+ background: radial-gradient(circle at 12.3% 19.3%, rgb(158, 243, 174) 0%,  rgb(110, 206, 37) 100.2%);
+  border-radius: 20px;
+    }
+    .card-body{
+      font-size: 15px;
+      margin-left: 20px;
+      
+    }
+    .desc{
+      font-size: 14px;
+      padding:3px;
+    }
+    .price{
+     font-weight: bold;
+     font-size:18px;
+     padding:3px;
+    }
+    .btn{
+     /* background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);*/
+      background: radial-gradient(circle at 12.3% 19.3%, rgb(158, 243, 174) 0%,  rgb(110, 206, 37) 100.2%);
+      border-radius: 20px;
+      width:150px;
+      border: none;
+      color: #ffff;
+      padding:5px 20px;
+      display:block;
+      margin:10px auto;
+      text-decoration: none;
+      cursor:pointer;
+
+
+     
+    }
+  
+    .btn-Qnty{
+      height:25px;
+    }
+    .quantity-container{
+      display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor:pointer;
+   }
+   .qnty-text{
+      font-size: 25px;
+      margin: auto 10px;
+      cursor:pointer;
+   }

@@ -1,0 +1,445 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body{
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f7f6f6;
+}
+.nav-bar {
+ 
+  background: radial-gradient(circle at 12.3% 19.3%, rgb(158, 243, 174) 0%,  rgb(110, 206, 37) 100.2%);
+
+
+}
+.footer-content{
+  background: radial-gradient(circle at 12.3% 19.3%, rgb(158, 243, 174) 0%,  rgb(110, 206, 37) 100.2%);
+
+}
+.txt{
+  color: white;
+  font-size: 22px;
+}
+
+.brand-logo{
+  margin-left: -7px;
+}
+.brand-img{
+  border-radius: 40px;
+}
+.theme-icon{
+  background-color: white;
+  width:35px;
+  height:35px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+
+.theme-dark{
+  background-color: black;
+  color:#ffff;
+
+}
+.theme-light{
+  background-color:white;
+  color:black;
+}
+  /*js script css*/
+    .active{
+    
+      border:1px solid  black;
+    }
+    
+
+        /*body img */
+
+    /*.quize_img{
+      height:500px;
+       width:1500px;
+      margin-top: 30px;
+      margin-left:10px;
+     }/*
+
+       /* body content*/
+
+
+       .logo-heading{
+        display:flex;
+        justify-content: center;
+       }
+     .dash-card{
+   height:280px;
+   padding:10px;
+   width:400px;
+   display: inline-block;
+   margin:30px 50px;
+   border-radius:20px;
+   background-color:  rgb(247, 239, 239);
+ 
+   box-shadow:0 0 30px rgba(0 , 0 , 0, 0.2);
+   
+ }
+ .dash-card:hover{
+   background-color:#fbe5f5;
+ 
+ }
+
+ .lang_logo_img{
+ width:20%;
+ aspect-ratio:3/2;
+ object-fit: contain;
+ min-inline-size: color-burn;
+}
+b{
+ font-size:25px;
+}
+.heading{
+ display: flex;
+ justify-content:center;
+ margin-top: 10px;
+
+}
+.paragraph{
+color:black;
+padding:5px;
+text-decoration: none;
+}
+
+ .IQ_heading{
+  margin-top:20px;
+  display:block;
+ }
+
+
+ 
+
+/* button desion from html,css ,js session*/
+
+.pnbutton {
+font-size: 20px;
+border: none;
+background-color: rgb(102, 104, 228);
+
+position: relative;
+border-radius: 8px;
+margin-left:130px;
+margin-top:30px;
+
+}
+
+/*implemennt like card review */
+
+#main-prodimg{
+height:500px;
+width:1500px;
+margin-top: 5px;
+margin-left:10px;
+border:1px solid black;
+border-radius:20px;
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+display: flex;
+margin:20px auto;
+}
+
+.pro-img{
+height:70px;
+width:70px;
+border:1px solid black;
+border-radius:5px;
+margin:10px;
+cursor:pointer;
+
+
+}
+.pro-img-container{
+display:flex;
+justify-content: center;
+}
+
+.foot {
+  background: radial-gradient(circle at 12.3% 19.3%, rgb(87, 208, 252) 0%,  rgb(85, 88, 218) 100.2%);
+}
+.para{
+  text-align: justify;
+}
+
+
+
+/* media query */
+
+
+@media (min-width: 300px) and (max-width: 500px){ 
+  #main-prodimg{
+    height:300px;
+    width:300px;
+    margin-top: 5px;
+    margin-left:50px;
+    border:1px solid black;
+    border-radius:20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+    display: flex;
+    margin:20px auto;
+  }
+
+ 
+
+  .dash-card{
+    height:280px;
+    padding:10px;
+    width:100px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin:10px 100px;
+    border-radius:20px;
+    background-color:  rgb(247, 239, 239);
+  
+    box-shadow:0 0 30px rgba(0 , 0 , 0, 0.2);
+    
+  }
+  .dash-card:hover{
+    background-color:#fbe5f5;
+  
+  }
+  .pnbutton {
+    font-size: 20px;
+    border: none;
+    background-color: rgb(102, 104, 228);
+    
+    position: relative;
+    border-radius: 8px;
+    margin-left:30px;
+    margin-top:30px;
+    
+    }
+    .quize_img{
+      height:300px;
+    width:150px;
+
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 768px){ 
+  #main-prodimg{
+    height:350px;
+    width:400px;
+    margin-top: 5px;
+    margin-left:40px;
+    border:1px solid black;
+    border-radius:20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+    display: flex;
+    margin:20px auto;
+  }
+
+ 
+
+  .dash-card{
+    height:280px;
+    padding:10px;
+    width:140px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+   
+    margin-left:180px;
+    border-radius:20px;
+    background-color:  rgb(247, 239, 239);
+  
+    box-shadow:0 0 30px rgba(0 , 0 , 0, 0.2);
+    
+  }
+  .dash-card:hover{
+    background-color:#fbe5f5;
+  
+  }
+  .pnbutton {
+    font-size: 20px;
+    border: none;
+    background-color: rgb(102, 104, 228);
+    
+    position: relative;
+    border-radius: 8px;
+    margin-left:30px;
+    margin-top:30px;
+    
+    }
+    .quize_img{
+      height:300px;
+    width:150px;
+
+    }
+
+}
+@media (min-width: 768px) and (max-width: 992px){
+  .main-prodimg{
+    height:450px;
+    width:700px;
+    margin-top: 5px;
+    margin-left:50px;
+    border:1px solid black;
+    border-radius:20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+    display: flex;
+    margin:20px auto;
+  }
+
+  .dash-card{
+    height:280px;
+    padding:10px;
+    width:500px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin:30px 230px;
+    border-radius:20px;
+    background-color:  rgb(247, 239, 239);
+  
+    box-shadow:0 0 30px rgba(0 , 0 , 0, 0.2);
+    
+  }
+  .dash-card:hover{
+    background-color:#fbe5f5;
+  
+  }
+  .pnbutton {
+    font-size: 20px;
+    border: none;
+    background-color: rgb(102, 104, 228);
+    
+    position: relative;
+    border-radius: 8px;
+    margin-left:20px;
+    margin-top:30px;
+    
+    }
+    .quize_img{
+      height:300px;
+    width:700px;
+
+    }
+
+
+}
+
+
+
+
+
+
+.dash-card{
+  height:280px;
+  padding:10px;
+  width:400px;
+  display: inline-block;
+  margin:20px 50px;
+  border-radius:20px;
+  margin-bottom: 80px;
+  background-color:  rgb(247, 239, 239);
+ 
+
+  box-shadow:0 0 30px rgba(0 , 0 , 0, 0.2);
+
+  /*animation */
+  animation: roll 1s infinite;
+  
+}
+.dash-card:hover{
+  background-color:#fbe5f5;
+
+}
+
+/*animation*/
+@keyframes dash-card{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+      transform: rotate(360deg);
+  }
+}
+
+.img{
+width:150px;
+height:150px;
+display:flex;
+margin:20px auto;
+margin-bottom:50px;
+border-radius:20px;
+
+}
+b{
+font-size:25px;
+}
+.heading{
+margin-top: 20px;
+display: flex;
+justify-content:center;
+
+}
+.paragraph{
+color:black;
+padding:5px;
+text-decoration: none;
+}
+
+
+/* button desion from html,css ,js session*/
+
+.pnbutton {
+font-size: 20px;
+border: none;
+background-color: rgb(102, 104, 228);
+
+position: relative;
+border-radius: 8px;
+margin-left:130px;
+margin-top:30px;
+
+}
+
+/*implemennt like card review */
+
+.main-prodimg{
+
+height:500px;
+width:1500px;
+margin-top: 30px;
+margin-left:10px;
+
+
+
+border:1px solid black;
+border-radius:20px;
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+display: flex;
+margin:20px auto;
+}
+.pro-img{
+height:70px;
+width:70px;
+border:1px solid black;
+border-radius:5px;
+margin:10px;
+cursor:pointer;
+
+
+}
+.pro-img-container{
+display:flex;
+justify-content: center;
+
+}
+/*.slogan{
+  color:black;
+  margin-left: 30px;
+}*/
+
+
+
+

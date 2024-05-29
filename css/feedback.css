@@ -1,0 +1,81 @@
+    
+.body1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    margin: 30px ;
+}
+.container1 {
+     display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5px;
+    }
+    
+    .card1{
+   /* background-color:#d0cdcd;*/
+    max-width: 33rem;
+    background-image: linear-gradient( 135deg, #ABDCFF 10%, #c7e4f9 100%);
+    margin: 50px auto;
+    margin-bottom: 110px;
+    margin-top: 25px;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px black;
+    width: 100%;
+    border-radius: 0.5rem;
+    text-align: center;
+    }
+
+    #rating{
+        text-align: center;
+    }
+    
+    .star {
+
+        height: 70px;
+        padding: 10px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        }
+        
+        .ta{
+            padding: 20px 100px;
+            margin: 20px;
+        }
+        .review_card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        margin-bottom: 0;
+        font-size: 25px;
+        font-weight:bold;
+        
+        }
+        
+        .sbtn1{
+            font-size:30px ;
+            padding: 5px 30px;
+            margin: 25px;
+            margin-left:150px;
+            border: none;
+            height:50px;
+            width:180px;
+            background:radial-gradient(circle at 12.3% 19.3%, rgb(87, 208, 252) 0%,  rgb(85, 88, 218) 100.2%);
+            background:black;
+            color: #ffff;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+
+        @media screen and (max-width:600px) {
+
+            .ta{
+                padding: 20px 70px;
+               
+            }
+            
+        }
