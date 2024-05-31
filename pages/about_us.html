@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ice Cream</title>
+    <title>Dairy Farmers</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
       <!--font awesome link-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
     <link rel="stylesheet" href="./../css/index.css">
-    <link rel="stylesheet" href="./../css/pro.css">
-   
+    <link rel="stylesheet" href="./../css/login.css">
+    <link rel="stylesheet" href="./../css/about_us.css">
    
 </head>
 
@@ -41,16 +40,16 @@
                         Products
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href=".\milkpro.html" target="_blank" onclick="confirm('Do you want to Buy Milk Product?')">Milk Product</a></li>
-                          <li><a class="dropdown-item" href=".\IceCream.html" target="_blank"  onclick="confirm('Do you want to Buy ice-cream?')">Ice_Cream</a></li>
-                          <li><a class="dropdown-item" href=".\sweet.html" target="_blank" onclick="confirm('Do you want to Buy Sweet?')">Sweet</a></li>
-                         </ul>
+                        <li><a class="dropdown-item" href=".\..\products\milkpro.html" target="_blank" onclick="confirm('Do you want to Buy Milk Product?')">Milk Product</a></li>
+                        <li><a class="dropdown-item" href=".\..\products\IceCream.html" target="_blank"  onclick="confirm('Do you want to Buy ice-cream?')">Ice_Cream</a></li>
+                        <li><a class="dropdown-item" href=".\..\products\sweet.html" target="_blank" onclick="confirm('Do you want to Buy Sweet?')">Sweet</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link txt ps-5" href="./../Pages/login.html">Login</a>
+                      <a class="nav-link txt ps-5" href="./login.html">Login</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link txt  ps-5 pe-4" href="./../Pages/feedback.html">Feedback</a>
+                      <a class="nav-link txt  ps-5 pe-4" href="#">Feedback</a>
                     </li>
                   </ul>
                 <div class="container-fluid">
@@ -75,126 +74,50 @@
 
     <script src="./../js/script.js"></script>
     <script src="./../js/index.js"></script>
-    <script src="./../js/IceCream.js"></script>
+    <script src=".\..\js\feedback.js"></script>
 
-    <!-- Homepage content start-->
-    <div class="logo-heading">
-      <img src="./../images/logo2.png" alt="Bootstrap" class="brand-img" width="65">
-  
-     
-       <h1 class="heading">Shetkari Dairy Farm</h1>
-      </div>
-   </div>   
-  
-   <!--<div id="clock" >  </div>-->
-      
-     <div class="heading">
-    <p> "Growing Dreams, Harvesting Success"</p>
-   </div>
-  
-  
-   <div>
-  
-<h1 class="heading">Ice_Cream</h1>
-  <div class="row ">
+</head>
 
-  
-    <div class="product-card">
-        <img src=".\..\images\amul-realmilk-ice-cream.jpg" class="img"/>
-      <div class="card-body">
-        <h1 > cup ice_Cream </h1>
-        <p class="desc">  this is made of rich creamy ice-mix that is in five variants, 
-          highly preferred 
-        all flavours.</p>
-        <p class="price" id="price">₹30 </p>
-        <p>
-        <p id="show-quantity4">1 * 30 </p>
+<body id="body">
+
+
+    <div class="row" >
+ 
+        <h1>About </h1><br>
+           <div class="first_card"> 
+           
+           <p>It is for these reasons that 90% of our clients from all over the world keep coming back! Just ask them!
         
-        <p id="show-total4"> total:30</p>
-
-
-        <div class="quantity-container"> 
-            
-            <img src=".\..\images\minus.png"class="btn-Qnty" onclick="Dec4()"/> 
-            <span class="qnty-text" id="qnty-text4">  1    </span>
-            <img src=".\..\images\plus.png" class="btn-Qnty" onclick="Inc4()" />
-            
-        </div>
-        <a href=".\..\pages\Payment.html"  > <button  type="button"class="btn">Buy Now</button> </a>
-      </div>
-     </div>
-
-
-
-
-     <div class="product-card">
-        <img src=".\..\images\cone.png" class="img"/>
-      <div class="card-body">
-        <h1 > Cone</h1>
-        <p class="desc">cone-shaped pastry, usually made of a wafer
-           made so ice cream can be carried without a bowl .</p>
-        <p class="price" id="price">₹60 </p>
-        <p>
-        <p id="show-quantity5">1 * 60 </p>
+        <b>shetkari Dairy Farm</b>is a unified communications platform that empowers business owners and 
+        promotes business growth through services that strengthen brand identity, and sustainably promote online presence to increase engagement. We offer services to help small 
+        business enterprises from branding, website development, to digital marketing—and
+         everything else digital in between.</p>
         
-        <p id="show-total5"> total:60</p>
-
-
-        <div class="quantity-container"> 
-            
-            <img src=".\..\images\minus.png "class="btn-Qnty" onclick="Dec5()"/> 
-            <span class="qnty-text" id="qnty-text5">  1    </span>
-            <img src=" .\..\images\plus.png" class="btn-Qnty" onclick="Inc5()" />
-            
-        </div>
-        <a href=".\..\pages\Payment.html"  > <button  type="button"class="btn">Buy Now</button> </a>
-      </div>
-     </div>
-
-
-
-
-     <div class="product-card">
-        <img src=".\..\images\chokobar.webp" class="img"/>
-      <div class="card-body">
-        <h1 > chocobar </h1>
-        <p class="desc">  CHOCOBAR is made using creamier vanilla ice mix prepared with milk solids,
-           skimmed milk powder,</p>
-        <p class="price" id="price">₹20 </p>
-        <p>
-        <p id="show-quantity6">1 * 20 </p>
         
-        <p id="show-total6"> total:20</p>
-
-
-        <div class="quantity-container"> 
-            
-            <img src=".\..\images\minus.png "class="btn-Qnty" onclick="Dec6()"/> 
-            <span class="qnty-text" id="qnty-text6">  1    </span>
-            <img src=".\..\images\plus.png" class="btn-Qnty" onclick="Inc6()" />
-            
+         </div>
+        
+         </div>
+        
+        <div class="row " >
+         <div class="second_card  ">
+          <img src="..\images\about\img1.jpg">
         </div>
-        <a href=".\..\pages\Payment.html"  > <button  type="button"class="btn">Buy Now</button> </a>
-      </div>
-     </div>
-
- </div>
-
-
+        
+        </div>
 
      <!--footer-->
    <div class=" ~ text-light p-4   footer-content" >
     <div class="row">
         <div class="col-lg-3 my-auto">
-            <img class="d-block" src="./../images/logo2.png" width="100px">
+            <img class="d-block" src="./../Images/logo-removebg-preview.png" width="100px">
             <p class="pt-3">Get in Touch with us:</p>
             <div>
                 <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp fs-2 p-2 pt-0"
-                        style="color:black;"></i></a>
+                        style="color: #ffffff;"></i></a>
               
                <a href="https://www.instagram.com/xyz5/"><i class="fa-brands fa-instagram fs-2 p-2 pt-0"
                         style="color: #ffffff;"></i></a>
-          
+                
                 <a href="mailto:nimsenikita710@gmail.com"><i class="fa-regular fa-envelope fs-2 p-2 pt-0"
                         style="color: #ffffff;"></i></a>
             </div>
