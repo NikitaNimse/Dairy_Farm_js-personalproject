@@ -26,3 +26,79 @@
     
    
   }
+  .shetkari_img{
+
+    width:700px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+
+  /* media query */
+  
+@media (min-width: 400px) and (max-width: 700px){ 
+    h1{
+        margin-left:5px;
+        margin-bottom:50px;
+         }
+    .first_card{
+        height:auto;
+        padding:20px;
+        width:600px;
+     box-shadow:0 0 10px rgba(0 , 0 , 0, 0.2);
+      border-radius:5px;
+      margin-left:20px;
+      border:none;
+      margin-bottom:50px;
+      }
+      .second_card{
+        display:flex;
+        box-shadow:0 0 40px rgba(0 , 0 , 0, 0.2);
+        margin-left:10px;
+        margin-bottom:30px;
+        width:300px;
+     
+         
+        
+       }
+       .shetkari_img{
+     
+         width:400px;
+         margin-left: 10px;
+         margin-right: 10px;
+       }
+    
+  }
+  @media (min-width: 700px) and (max-width: 992px){ 
+    h1{
+        margin-left:5px;
+        margin-bottom:50px;
+         }
+    .first_card{
+        height:auto;
+        padding:20px;
+        width:600px;
+     box-shadow:0 0 10px rgba(0 , 0 , 0, 0.2);
+      border-radius:5px;
+      margin-left:0px;
+      border:none;
+      margin-bottom:50px;
+      }
+
+      .second_card{
+        display:flex;
+        box-shadow:0 0 40px rgba(0 , 0 , 0, 0.2);
+        margin-left:20px;
+        margin-bottom:30px;
+        width:600px;
+     
+         
+        
+       }
+       .shetkari_img{
+     
+         width:700px;
+         margin-left: 10px;
+         margin-right: 10px;
+       }
+  }
