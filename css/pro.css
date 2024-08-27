@@ -15,7 +15,8 @@
   margin:10px auto;
   padding:10px 20px;
  /* background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);*/
- background: radial-gradient(circle at 12.3% 19.3%, rgb(158, 243, 174) 0%,  rgb(110, 206, 37) 100.2%);
+ 
+ background-color: rgb(219, 191, 244);
   border-radius: 20px;
     }
     .card-body{
@@ -34,7 +35,7 @@
     }
     .btn{
      /* background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);*/
-      background: radial-gradient(circle at 12.3% 19.3%, rgb(158, 243, 174) 0%,  rgb(110, 206, 37) 100.2%);
+     background-color: rgb(219, 191, 244);
       border-radius: 20px;
       width:150px;
       border: none;
